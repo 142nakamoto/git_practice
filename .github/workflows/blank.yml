@@ -28,6 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
+          export username="test_user11"
           echo Hello, world!
           echo $username
 
